@@ -8,40 +8,83 @@ body {
   height: 100vh;
 }
 
-.navButton {
-  margin-top: 16px;
+.navbar {
+  overflow: hidden;
+  background-color: transparent;
+  position: fixed;
+  top: 10pt;
+  width: 100%;
+  right: 8pt;
+}
+
+.navbar > div {
   float: right;
+  display: block;
+  width: 109px;
+  margin: 5px 5px;
+  text-align: center;
+  font-size: 30px;
+  padding: 2pt 2pt;
+}
+
+.navButton {
   background-color: transparent;
   border: none;
   color: white;
-  padding: 12px 20px;
   font-size: 16px;
   cursor: pointer;
   font-family: "Segoe UI", "Roboto", "Open Sans", "Helvetica Neue", "sans-serif";
 }
 
 .transparentButton {
-  margin-top: 22px;
-  margin-right: auto;
-  float: right;
   background-color: transparent;
   border: solid white 1px;
   border-radius: 2px;
   color: white;
-  padding: 5px 5px;
+  padding: 5px 10px;
   font-size: 14px;
   cursor: pointer;
   font-family: "Segoe UI", "Roboto", "Open Sans", "Helvetica Neue", "sans-serif";
 }
 
-.img {
-  text-align: center;
-  width: 65%;
-  display: block;
-  margin: auto;
+.foxKast {
+  overflow: hidden;
+  display: flex;
+  background-color: transparent;
+  justify-content: flex-end;
+  margin: 15pt 10pt;
+  position: fixed;
+  top: 0pt;
 }
 
-h1 {
+.foxKastImg {
+  width: 14%;
+  float: left;
+}
+
+.boatLaptop {
+  display: flex;
+  background-color: transparent;
+  justify-content: center;
+  margin-top: 180px;
+}
+
+.boatLaptopImg {
+  width: 600px;
+  height: auto;
+}
+
+.watchPartiesMadeEasy {
+  display: flex wrap;
+  flex-direction: column;
+  justify-content: center;
+  background-color: transparent;
+  margin-top: 20px;
+}
+
+.watchPartiesMadeEasyTitle {
+  width: 600px;
+  margin: auto;
   text-align: center;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -54,13 +97,12 @@ h1 {
   margin: auto;
   text-align: center;
   font-size: 15pt;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
   color: white;
+  padding: 25px;
 }
 
 .joinMillions {
-  width: 550px;
   margin: auto;
   margin-top: 15pt;
   text-align: center;
@@ -79,12 +121,9 @@ h1 {
   justify-content: center;
   border: none;
   color: white;
-  padding: 12px 80px;
-  font-size: 16px;
+  padding: 12px 60px;
+  font-size: 18px;
+  border-radius: 2pt;
   cursor: pointer;
   font-family: "Segoe UI", "Roboto", "Open Sans", "Helvetica Neue", "sans-serif";
-}
-
-.nav {
-  margin-right: auto;
 }
